@@ -10,6 +10,17 @@ Paired resource revision: `2026-10-05.9`. This identifies corresponding resource
 
 This README is a user guide, not an additional policy. [SKILL.md](SKILL.md) is the single instruction entrypoint and language selector; the [English standards](references/en/standards.md) provide the full workflow. Corresponding Chinese and English references and templates are included. Applicable higher-priority instructions remain controlling.
 
+## Engineering Practices Integrated
+
+It brings together the following engineering practices and development requirements:
+
+1. Microsoft engineering workflow: requirements, design, acceptance, and definition of done.
+2. Google quality principles: small changes, maintainability, testing, and code self-review.
+3. Tencent Secure Coding Guide: input, authentication and authorization, databases, files, networking, and secrets security.
+4. Risk classification and delivery requirements: high-risk changes must consider compatibility, recovery, and verification evidence.
+
+This is a selection and adaptation of public engineering practices and this skill's development requirements, not an official unified standard from these companies. See [sources and limitations](references/en/sources.md) for attribution and applicability.
+
 ## Usage
 
 Invoke the skill explicitly when starting a task:
@@ -179,4 +190,3 @@ To share the skill, distribute the entire `development-standards` directory, inc
 Use the entrypoint's required/must-not/recommended and approved/verified terminology, and synchronize the paired revision in the entrypoint, both READMEs, and resource headers. Matching identifiers do not prove translation correctness or add project approval/daily-development checks. Keep external-source review dates separate from resource revisions.
 
 Tencent-derived material is attributed to THL A29 Limited under CC BY 4.0, with the adaptations and historical-example limitations documented in [sources.md](references/en/sources.md). That attribution is not a blanket license declaration for the entire skill.
-
