@@ -179,7 +179,4 @@ To share the skill, distribute the entire `development-standards` directory, inc
 Use the entrypoint's required/must-not/recommended and approved/verified terminology, and synchronize the paired revision in the entrypoint, both READMEs, and resource headers. Matching identifiers do not prove translation correctness or add project approval/daily-development checks. Keep external-source review dates separate from resource revisions.
 
 Tencent-derived material is attributed to THL A29 Limited under CC BY 4.0, with the adaptations and historical-example limitations documented in [sources.md](references/en/sources.md). That attribution is not a blanket license declaration for the entire skill.
-# development-standards
-# development-standards
-# development-standards
-# development-standards
+

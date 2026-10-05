@@ -1,0 +1,6 @@
+interface:
+  display_name: "Development Standards / 开发要求与编码规范"
+  short_description: "需求架构先确认 / Approved specs, scoped fixes, secure delivery"
+  default_prompt: "Use $development-standards in my requested language and apply the appropriate approved-development or scoped-repair workflow; 使用所需语言并保留安全、兼容与验证要求。"
+policy:
+  allow_implicit_invocation: true
